@@ -12,11 +12,9 @@ void bubble_sort(int *array, size_t size)
 	unsigned int i, j;
 	int temp;
 
-	/* Check if the size of the array is less than 2 */
 	if (size < 2)
 		return;
 
-	/* Loop through array */
 	for (i = 0; i < size; i++)
 	{
 		for (j = 0; j < size - 1; j++)
